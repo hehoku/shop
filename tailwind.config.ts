@@ -11,17 +11,18 @@ const config: Config = {
     themes: [
       {
         lightTheme: {
-          primary: '#f4aa3a',
+          primary: '#2fd475',
           secondary: '#f4f4a1',
           accent: '#1be885',
           neutral: '#272136',
           'base-100': '#ffffff',
+          'base-200': '#eeeeee',
           info: '#778ad4',
           success: '#23b893',
           warning: '#f79926',
           error: '#ea535a',
           body: {
-            'background-color': '#e3e6e6',
+            'background-color': '#c5c6c6',
           },
         },
       },
