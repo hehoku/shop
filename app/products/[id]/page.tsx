@@ -28,6 +28,9 @@ export async function generateMetadata({
   return {
     title: product.name + ' | Next.js Shop',
     description: product.description,
+    openGraph: {
+      images: [{ url: product.imageUrl }],
+    },
   }
 }
 
