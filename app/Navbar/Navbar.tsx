@@ -1,8 +1,8 @@
+import authOptions from '@/app/api/auth/[...nextauth]/options'
 import { getCart } from '@/lib/db/cart'
 import { getServerSession } from 'next-auth'
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
-import { authOptions } from '../api/auth/[...nextauth]/route'
 import ShoppingCartButton from './ShoppingCartButton'
 import UserMenuButton from './UserMenuButton'
 
